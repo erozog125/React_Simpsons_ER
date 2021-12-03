@@ -51,7 +51,7 @@ main {
   flex-wrap: wrap;
 }
 
-.card {
+/* .card {
   width: 22rem;
   height: 30rem;
   border-radius: 15px;
@@ -80,7 +80,7 @@ main {
   color: #ffff00;
   font-size: 2rem;
   margin-top: 2rem;
-}
+} */
 
 button {
   width: 9rem;
