@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './Card.css';
 
-export const Card = ({card}) => {
+export const Card = (data) => {
 
-    const { URL, name, quote } = card;
+  const { character, image, quote } = data.data;
 
   return (
     <div className="card">
-      <img src={URL} alt={name} />
-      <h2>{name}</h2>
+      <img src={image} alt={character} />
+      <h2>{character}</h2>
       <hr />
       <p>{quote}</p>
     </div>
